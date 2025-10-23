@@ -66,6 +66,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier){
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
                     )
+                    Text(text = stringResource(id = R.string.alamat),
+                            fontSize = 30.sp,
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                    )
                 }
             }
         }

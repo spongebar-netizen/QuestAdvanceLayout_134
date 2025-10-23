@@ -48,7 +48,10 @@ fun ActivitasPertama(modifier: Modifier = Modifier){
                 containerColor = Color.DarkGray
             )
         ){
-            Row (){
+            Row (
+                verticalAlignment = Alignment.CenterVertically
+            ){
+
                 val gambar = painterResource(id = R.drawable.kucingbakekok)
                 Image(
                     painter = gambar,
@@ -57,6 +60,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier){
                         .size(size = 100.dp)
                         .padding(all = 5.dp)
                 )
+
                 Spacer(modifier = Modifier.width(width = 30.dp))
                 Column (){
                     Text(text = stringResource(id = R.string.nama),

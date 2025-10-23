@@ -1,4 +1,4 @@
-package example
+package com.example.pam3
 
 import android.widget.Space
 import androidx.compose.foundation.Image
@@ -51,7 +51,7 @@ fun ActivitasPertama(modifier: Modifier){
             )
         ){
             Row (){
-                val gambar = painterResource(id = R.drawable.tewas_mengenaskan)
+                val gambar = painterResource(id = R.drawable.kucingbakekok)
                 Image(
                     painter = gambar,
                     contentDescription = null,
